@@ -10,4 +10,4 @@ use CTRL+C to stop
 
 ## Information
 If a website with a functional link were found, it will paste it into .csv file in same directory.
-Tt processes within 0.0597 second for a single task and for 200 tasks about 11.9508 seconds.
+It processes within 0.0597 second for a single task and for 200 tasks about 11.9508 seconds.
