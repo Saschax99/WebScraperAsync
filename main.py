@@ -67,7 +67,7 @@ if __name__ == "__main__":
             if DEBUG: print(Fore.YELLOW + "creating new csv file..")
             WriteCSV("number", "title", "url")
 
-        input(Fore.MAGENTA + "enter the number of async processes to start the program: \n")
+        amount = int(input(Fore.MAGENTA + "enter the number of async processes to start the program: \n"))
         while True:
             timer_start = time()
             res = asyncio.run(main(urls))
